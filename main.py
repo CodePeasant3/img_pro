@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     # 读取文件
-    img = cv2.imread("./data/8.png")
+    img = cv2.imread("data/type_3/2.png")
     img_gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 
     x, y = img_gray.shape[0:2]
